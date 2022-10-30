@@ -1,7 +1,6 @@
-import dotenv from 'dotenv';
+import { config } from 'dotenv';
 
-dotenv.config();
+config();
 
-export default {
-    database_url: process.env.DATABASE_URL
-}
+export const database_url = process.env.DATABASE_URL;
+export const secret = process.env.SECRET;

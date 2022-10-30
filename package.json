@@ -6,7 +6,10 @@
   "author": "dionisu <meijin.sama90@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
     "express": "^4.18.2",
+    "make-runnable": "^1.4.0",
     "pg": "^8.8.0"
   },
   "type": "module",
